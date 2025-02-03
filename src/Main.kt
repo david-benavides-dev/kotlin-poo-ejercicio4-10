@@ -1,5 +1,19 @@
-fun main() {
-    println("null")
-}
+import classes.*
 
-// TODO Pensar en como transladar la lógica de mi pseudo tic-tac-toe realizado en Python a POO.
+fun main() {
+
+    val tablero = Tablero()
+
+    val jugador1 = Jugador("Jugador Uno", 1)
+    val jugador2 = Jugador("Jugador Dos", 2)
+
+    jugador1.cambiarNombre()
+    jugador2.cambiarNombre()
+
+    val posiciones = jugador1.pedirPosiciones()
+
+    tablero.colocarPieza(jugador1,posiciones)
+
+    println(tablero)
+
+}
