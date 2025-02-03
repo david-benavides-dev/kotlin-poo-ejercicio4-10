@@ -1,4 +1,4 @@
-## P4.3 - Ejercicios básicos de POO 6 de 10
+## P4.3 - Ejercicios básicos de POO 10 de 10
 
 ### **Ejercicio 4.10**
 
